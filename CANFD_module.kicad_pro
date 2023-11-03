@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 0.9,
+          "height": 1.35,
+          "width": 1.35
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -127,7 +127,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.0875,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -172,13 +172,37 @@
       ],
       "track_widths": [
         0.0,
-        0.0,
-        0.2
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.6
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.7
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.8
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.9
         }
       ],
       "zones_allow_external_fillets": false
@@ -440,7 +464,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "netlists/CANFD_module.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -470,7 +494,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -484,7 +508,7 @@
   "sheets": [
     [
       "c32def75-75aa-46c2-9dc0-f75c1f3533f9",
-      "CANFD_module_0"
+      ""
     ]
   ],
   "text_variables": {}
